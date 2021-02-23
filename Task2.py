@@ -1,4 +1,5 @@
 from Task1 import Task as tsk
+
 number = input('Enter number or string :')
 if(tsk.is_digit(number)):
     newNum = int(number)
